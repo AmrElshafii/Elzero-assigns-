@@ -1,0 +1,61 @@
+div.div-1 {
+    color: black;
+    text-transform: capitalize;
+    text-shadow: 0.6px 0.4px 0 red, 1.2px 0.8px 0 rgb(40, 192, 243), 1.8px 1.2px 0 purple;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+.one {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+
+.two {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+}
+
+.three {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.div-2 {
+    width: 400px;
+    padding: 10px;
+    background-color: #EEE;
+    white-space: normal;
+}
+
+.div-3 {
+    width: 400px;
+    padding: 10px;
+    background-color: #EEE;
+}
+
+.div-4 {
+    width: 400px;
+    padding: 10px;
+    background-color: #EEE;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+a {
+    text-align: center;
+    display: block;
+    width: fit-content;
+    margin: auto;
+    text-transform: capitalize;
+    background-color: rgb(54, 142, 139);
+    height: 20px;
+    color: white;
+    border-bottom: 10px solid rgb(31, 85, 83);
+    text-decoration: none;
+    padding: 10px 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    letter-spacing: 1.2px;
+}

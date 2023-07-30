@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="exercises_7.html" method="get">
+        <label id="">Token</label>
+        <input name="Token" 
+        value="b92f1fc2fce391ad7af633723afd3055" 
+        id="" type="text" hidden>
+        <label id="">Email</label>
+        <input name="Email" value="o@o.com" id="" type="email" readonly>
+        <label id="">Username</label>
+        <input name="Username" value="" id="" 
+        type="text" autofocus required min="5" max="20">
+        <input type="reset" value="Empty">
+        <input type="submit" value="send">
+
+        <br>
+
+        <input type="checkbox" id="Planning" name="skill" checked>
+        <label for="Planning">Planning</label>
+        <input type="checkbox" id="Analysis" name="skill">
+        <label for="Analysis">Analysis</label>
+        <input type="checkbox" id="Advanced Search" name="skill">
+        <label for="Advanced Search">Advanced Search</label>
+        <input type="checkbox" id="Logical Thinking" name="skill">
+        <label for="Logical Thinking">Logical Thinking</label>
+        <input type="checkbox" id="Problem Solving" name="skill">
+        <label for="Problem Solving">Problem Solving</label>
+
+        <br><hr>
+
+        <input type="radio" id="Scrum Master" value="Scrum Master" name="job" checked>
+        <label for="Scrum Master">Scrum Master</label>
+        <input type="radio" id="Project Manager" value="Project Manager" name="job">
+        <label for="Project Manager">Project Manager</label>
+        <input type="radio" id="Business Analyst" value="Business Analyst" name="job">
+        <label for="Business Analyst">Business Analyst</label>
+        <input type="radio" id="Back-End Developer" value="Back-End Developer" name="job">
+        <label for="Back-End Developer">Back-End Developer</label>
+        <input type="radio" id="Front-End Developer" value="Front-End Developer" name="job">
+        <label for="Front-End Developer">Front-End Developer</label>
+
+        <br><hr>
+
+        <label>Choose book</label>
+        <select name="prgraming language">
+            <optgroup name="php" label="php">
+                <option value="ph1">v1</option>
+                <option value="ph2">v2</option>
+                <option value="ph3">v3</option>
+            </optgroup>
+            <optgroup name="python" label="Python">
+                <option value="py1">v1</option>
+                <option value="py2">v2</option>
+                <option value="py3">v3</option>
+            </optgroup>
+        </select>
+
+        <br><br>
+        <textarea name="breif" cols="30" rows="10" 
+        placeholder="Write Here Why You Want To Learn Programming"></textarea>
+    </form>
+</body>
+</html>

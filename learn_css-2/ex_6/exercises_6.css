@@ -1,0 +1,81 @@
+.div-1 {
+    border: 5px solid rgb(255, 171, 150);
+    text-align: center;
+    width: 90%;
+    padding: 10px;
+    margin: auto;
+}
+
+.p-1 {
+    border: inherit;
+    padding: inherit;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.div-2 {
+    border: 5px solid lightgreen;
+    text-align: center;
+    width: 90%;
+    padding: 10px;
+    margin: auto;
+}
+
+.p-2 {
+    border: inherit;
+    padding: inherit;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+
+
+
+
+.p-2-1 {
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 40px;
+}
+
+.p-2-2 {
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Cairo', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.p-2-3 {
+    font-variant: small-caps;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Jomhuria', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.p-3-1 {
+    text-transform: capitalize;
+    font-size: 3.125rem;
+}
+
+.p-3-2 {
+    text-transform: capitalize;
+    font-size: 2.5rem;
+}
+
+.p-3-3 {
+    text-transform: capitalize;
+    font-size: 1.875rem;
+}
+
+.p-3-1,.p-3-2,.p-3-3 {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

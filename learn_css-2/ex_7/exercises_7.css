@@ -1,0 +1,53 @@
+nav.clear {
+    clear: both;
+}
+
+.parent {
+    background-color: rgba(234, 234, 234, 0.736);
+    text-align: center;
+    width: 800px;
+}
+
+.nav-1,.nav-2,.nav-3,.nav-4 {
+    float: left;
+    margin: 15px 0px 0px 15px;
+    background-color: gray;
+    padding: 10px 0;
+}
+
+.nav-1 {
+    width: calc(100% - 30px);
+}
+
+.nav-2 {
+    width: calc((100% - 60px) / 3);
+}
+
+.nav-3 {
+    width: calc((100% - 45px) / 2);
+}
+
+.nav-4 {
+    margin-bottom: 15px;
+    width: calc((100% - 75px) / 4);
+}
+
+
+.normal,.one,.two {
+    margin: 20px auto;
+    width: 300px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 20px;
+    background-color: gray; /* Get The Background From Image */
+    color: black;
+}
+
+.one {
+    background-color: rgba(128, 128, 128, 0.1);
+}
+
+.two {
+    opacity: 0.1;
+}
+

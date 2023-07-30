@@ -1,0 +1,165 @@
+.content {
+    > {
+        .box {
+            padding: 15px;
+            > .title {
+                font: {
+                    size: 18px
+                }
+            }
+        }
+    }
+    .cat {
+        padding: 15px;
+    }
+    &.premium::before {
+        content: "premium";
+    }
+    &.premium:hover {
+        background-color: #eee;
+    }
+}
+
+
+.class {
+    > .child {
+        padding: 10px;
+    }
+}
+
+.class {
+    > {
+        .child {
+            padding: 10px;
+        }
+    }
+}
+
+.class > {
+    .child {
+        padding: 10px;
+    }
+}
+
+.class {
+    & > .child {
+        padding: 10px;
+    }
+}
+
+.ex {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.class {
+    font: {
+        weight: bold;
+        size: 20px
+    }
+}
+
+.class {
+    @extend .ex;
+}
+
+// converting selectors
+.parent + .sibling {
+    // decaying properties
+    margin: auto;
+    margin-top: 10px;
+}
+
+// converting selectors
+.parent ~ .sibling .last {
+    padding: 10px;
+}
+
+.widget {
+    background-color: white;
+    padding: 20px;
+}
+.main-border {
+    border: 1px solid #CCC
+}
+.my-class {
+    @extend .widget;
+    @extend .main-border;
+    font-weight: bold;
+    margin: 20px auto;
+}  
+
+%widget {
+    background-color: white;
+    padding: 20px;
+}
+%main-border {
+    border: 1px solid #CCC
+}
+.my-class {
+    font-weight: bold;
+    margin: 20px auto;
+}
+
+.my-class {
+    @extend %widget;
+}
+
+.my-class {
+    @extend %main-border;
+}
+
+$max-width: 575px;
+.box {
+    h2 , p {
+        font-size: 20px;
+    }
+    @media (max-width : $max-width) {
+        h2 , p {
+            font-size: 16px;
+            span {
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+// The Code
+// Do Not Edit Here
+$red: #e91e63;
+$green: #009688;
+
+// Add What You Want Here
+$link-color: $green;
+$link-hover: $red;
+// Do Not Edit Here
+.box a {
+    color: $link-color;
+    &:hover {
+        color: $link-hover;
+    }
+}
+
+// @use "./project-folder/Helpers/vars.scss" as *;
+// @use "./project-folder/Helpers/functions.scss";
+// @use "./project-folder/Layout/header.scss";
+// @use "./project-folder/Layout/footer.scss";
+
+.box {
+    font-size: 20px;
+    &-holder {
+        width: 1000px;
+        &-content {
+            margin: auto;
+        }
+    }
+}
+
+.button:hover {
+    @if (false) {
+        color: #009688;
+    }
+    @else {
+        color: #e91e63;
+    }
+}

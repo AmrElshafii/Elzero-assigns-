@@ -1,0 +1,165 @@
+div.sqr-1 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(56, 185, 228);
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+div.sqr-2 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(45, 138, 95);
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+div.sqr-3 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 72, 72);
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+div.sqr-4 {
+    width: 100px;
+    height: 10px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top: 120px;
+    left: 20px;
+    z-index: -1;
+}
+
+
+div.div-1 {
+    position: relative;
+    width: 400px;
+    margin: auto;
+    background-color: #eee;
+    padding: 15px;
+    line-height: 1.4;
+    border-top: 2px solid #f44336;
+    border-bottom: 2px solid #f44336;
+    border-left: 3px solid #2196f3;
+    border-right: 3px solid #2196f3;
+    font-family: 'Geologica', sans-serif;
+}
+
+span.top-left {
+    position: absolute;
+    top: -11px;
+    left: -11px;
+    background-color: #2196f3;
+    padding: 1px 8px;
+    border-right: 3px solid #f44336;
+}
+
+span.bottom-left {
+    position: absolute;
+    bottom: -11px;
+    left: -11px;
+    background-color: #2196f3;
+    padding: 1px 8px;
+    border-right: 3px solid #f44336;
+}
+
+span.top-right {
+    position: absolute;
+    top: -11px;
+    right: -11px;
+    background-color: #2196f3;
+    padding: 1px 8px;
+    border-left: 3px solid #f44336;
+}
+
+span.bottom-right {
+    position: absolute;
+    bottom: -11px;
+    right: -11px;
+    background-color: #2196f3;
+    padding: 1px 8px;
+    border-left: 3px solid #f44336;
+}
+
+.parent {
+    width: 400px;
+    margin: auto;
+}
+
+.list {
+    background-color: #eee;
+    margin: 10px;
+    padding: 5px;
+    list-style-type: none;
+}
+
+.item {
+    background-color: #f9f9f9;
+    padding: 7px;
+    margin: 5px;
+}
+
+ul li ul li.item {
+    list-style-position: inside;
+    margin-left: -15px;
+}
+
+
+
+
+.table {
+    width: 700px;
+    margin: auto;
+    background-color: #eee;
+    border-spacing: 0;
+    border-bottom:2px solid #03a9f4;
+}
+
+.cap {
+    font-family: 'Geologica', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+.th {
+    font-family: 'Geologica', sans-serif;
+    background-color: #404040;
+    padding: 10px;
+    color: white;
+    border-right: 2px solid #fff;
+}
+
+#Control {
+    border-right: 0px;
+}
+
+.td {
+    text-align: center;
+    border: 1px solid white;
+    padding: 10px;
+    font-family: 'Geologica', sans-serif;
+    font-size: 18px;
+}
+
+.img {
+    height: 60px;
+}
+
+.view {
+    border: 0;
+    background-color: #03a9f4;
+    color: #FFF;
+    padding: 2px 5px;
+}
+
+.delet {
+    border: 0;
+    background-color: #e91e63;
+    color: #FFF;
+    padding: 2px 5px;
+}

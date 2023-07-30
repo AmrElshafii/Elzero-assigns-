@@ -1,0 +1,54 @@
+.div-1 {
+    display: inline-block;
+    background-color: #EEE;
+    border-style: solid;
+    border: 10px solid red;
+    outline: 10px solid black;
+    padding: 50px;
+    margin-top: 5%;
+    margin-left: 2%;
+}
+
+.div-2 {
+    display: inline-block;
+    background-color: #EEE;    
+    border-color: blue green;
+    border-style: solid;
+    border-width: 10px;
+    outline: 10px solid black;
+    padding: 50px;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.div-3 {
+    display: inline-block;
+    background-color: #EEE;
+    border-color: red green blue yellow;
+    border-style: dashed;
+    border-width: 10px;
+    outline: 10px solid black;
+    padding: 50px;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+
+.one {
+    background-color: #EEE;
+    width: 400px;
+    outline: 10px solid #EEE;
+    border-left: 4px solid rgb(249, 92, 92);
+}
+
+.two {
+    width: 400px;
+    visibility: hidden;
+}
+
+.three {
+    background-color: #EEE;
+    width: 400px;
+    outline: 10px solid #EEE;
+    border-left: 4px solid rgb(76, 154, 170);
+}
