@@ -1,0 +1,351 @@
+* {
+    box-sizing: border-box;
+    font-family: var(--main-font);
+}
+
+/* variable decleration */
+:root {
+    --main-font: 'Roboto', sans-serif;
+    --bold-weight: 600;
+    --second-weight: 400;
+    --main-color: #484f57;
+    --cyan-color: #26baa4;
+    --blue-color: hsl(233, 100%, 69%);
+    --secondary-color: #a2a7ab;
+}
+html,body {
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin-top: -1px;
+}
+/* framework components */
+.main-font {
+    font-weight: var(--bold-weight);
+    color: var(--main-color);
+    font-size: 35px;
+    text-align: center;
+}
+
+.secondary-font {
+    font-weight: var(--second-weight);
+    color: var(--secondary-color);
+    font-size: 15px;
+    text-align: center;
+}
+
+.sub-font {
+    font-weight: 170;
+    color: var(--secondary-color);
+    font-size: 18px;
+    line-height: 2;
+}
+
+.head-font {
+    font-weight: var(--bold-weight);
+    color: var(--main-color);
+    font-size: 25px;
+    margin-bottom: -5px;
+}
+
+.buttons {
+    font-size: 18px;
+    color: white;
+    width: 200px;
+    height: 40px;
+    font-weight: 500;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    border: 0px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.button-1 {
+    background-color: var(--cyan-color);
+    box-shadow: 0px 2px 0px 0px #489385;
+}
+
+.button-2 {
+    background-color: var(--blue-color);
+    box-shadow: 0px 2px 0px 0px #6a6fb7;
+}
+
+.image-1 {
+    width: 50%;
+}
+
+/* start the landing */
+div.landing {
+    background-image: url(./images/bg-header-desktop.png);
+    background-size: cover;
+    margin: 0px 0px 100px 0px;
+}
+
+div.container {
+    margin: auto;
+    padding-top: 70px;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+div.container p {
+    margin: -5px;
+}
+.button-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+div.container svg {
+    scale: .75;
+}
+
+div.container h2:last-of-type {
+    margin-top: 140px;
+    font-size: 25px;
+}
+
+div.container p:last-of-type {
+    width: 600px;
+    margin-bottom: 5px;
+}
+
+@media (min-width: 375px) and (max-width: 1440px) {
+    div.landing {
+        margin: 0px;
+    }
+    div.container p:last-of-type {
+        width: 60%;
+    }
+}
+/* end landing */
+
+
+
+
+/* start servises */
+div.services {
+    display: flex;
+    flex-direction: column;
+}
+
+div.section {
+    display: flex;
+}
+
+div.section img {
+    margin-left: -50px;
+}
+
+div.sub {
+    margin-left: 40px;
+    width: 35%;
+    padding: 30px 50px;
+}
+
+div.services div.section div {
+    width: 300px;
+}
+
+@media (min-width: 375px) and (max-width: 1440px){
+    .section {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 100px 0px;
+    }
+    .section div {
+        padding: 0px;
+        margin: 0px;
+    }
+    div.section img {
+        margin: 0px;
+    }
+    .buttons {
+        width: 300px;
+    }
+}
+
+/* end servises */
+
+/* start access */
+div.access img.image-2 {
+    margin: 3% 20%;
+    width: 60%;
+}
+
+.sub-2 {
+    display: flex;
+    margin: 50px 20px;
+    justify-content: space-evenly;
+}
+
+.sub-2 div {
+    text-align: center;
+    width: 300px;
+}
+
+.sub-2 div svg {
+    width: 50px;
+    height: 40px;
+    margin: 10px;
+}
+
+.access p:first-of-type {
+    margin-bottom: 50px;
+}
+
+@media (min-width: 375px) and (max-width: 1440px) {
+    .sub-2 {
+        flex-direction: column;
+        margin: calc((100% - 300px) / 2);
+    }
+}
+/* end access */
+
+/* start brands */
+div.brands {
+    display: flex;
+    margin: 100px auto;
+    width: 90%;
+    justify-content: space-evenly;
+}
+
+@media (min-width: 375px) and (max-width: 1440px) {
+    div.brands {
+        flex-direction: column;
+    }
+    div.brands img {
+        width: 50%;
+        margin: 40px auto;
+    }
+}
+/* end brands */
+
+/* start clipboard */
+div.clipboard div {
+    display: flex;
+    justify-content: center;
+}
+
+div.clipboard p:first-of-type {
+    width: 500px;
+    margin: 30px auto 50px auto;
+}
+
+@media (min-width: 375px) and (max-width: 1440px) {
+    div.clipboard div {
+        flex-direction: column;
+        margin: 0% 20%;
+        width: 60%;
+        align-items: center;
+    }
+    div.clipboard p:first-of-type {
+        width: 60%;
+    }
+}
+/* end clipboard */
+
+
+/* start footer */
+div.footer {
+    display: flex;
+    margin: 30px auto 0px auto;
+    background-color: #f5f6f8;
+    padding: 0px 150px;
+    justify-content: space-between;
+}
+
+div.footer .first {
+    display: flex;
+    align-items: center;
+}
+
+div.footer .second {
+    display: flex;
+    align-items: center;
+}
+
+div.footer svg {
+    scale: .75;
+    margin: 0px 10px;
+}
+
+div.footer div.first > svg {
+    scale: .5;
+    margin: 0px 0px;
+}
+
+div.footer ul {
+    display: grid;
+    list-style: none;
+    flex-direction: column;
+    row-gap: 20px;
+    column-gap: 50px;
+    grid-template-rows: repeat(2 , auto);
+    grid-template-columns: repeat(3 , auto);
+    color: var(--main-color);
+}
+
+li:hover {
+    color: var(--cyan-color);
+    cursor: pointer;
+}
+
+.footer .second {
+    cursor: pointer;
+}
+
+.two,.four,.six {
+    display: none;
+}
+.one:hover {
+    display: none;
+}
+.one:hover ~ .two {
+    display: inherit;
+}
+.three:hover {
+    display: none;
+}
+.three:hover ~ .four {
+    display: inherit;
+}
+.five:hover {
+    display: none;
+}
+.five:hover ~ .six {
+    display: inherit;
+}
+
+@media (min-width: 375px) and (max-width: 1440px) {
+    div.footer {
+        flex-direction: column;
+        align-items: center;
+    }
+    div.footer .first {
+        flex-direction: column;
+    }
+    div.footer ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        width: 400px;
+        margin: 10px auto 20px;
+    }
+    .footer .second {
+        width: 200px;
+        justify-content: center;
+    }
+}
+/* end footer */
